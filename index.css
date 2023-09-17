@@ -1,0 +1,121 @@
+/* Example CSS for Sidenav component */
+.navi {
+  display: flex;
+}
+
+#sidebar {
+  width: 250px;
+  background-color: white;
+  height: 100vh;
+  padding: 20px;
+  color: black;
+}
+
+#sidebar ul.components {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar ul.components li {
+  padding: 10px;
+  position: relative;
+}
+
+#sidebar ul.components li span {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+#sidebar ul.components li.active {
+  background-color: white;
+}
+
+#sidebar ul.components ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar ul.components ul li {
+  padding: 5px;
+}
+
+.contents {
+  flex: 1;
+  padding: 20px;
+} /* index.css */
+.admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cards__container {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+}
+/* Create.css */
+
+/* Style for the container div */
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the "Creating a Questionnaire" heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the "Add" button */
+button {
+  background-color: white; /* Change this to your preferred color */
+  color: black;
+  border: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style for the list of learners */
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Style for each item in the list */
+h2 > span {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Style for the delete icon */
+.AiOutlineDelete {
+  color: red; /* Change this to your preferred color */
+}
+
+/* Style for the edit icon */
+.BiEditAlt {
+  color: green; /* Change this to your preferred color */
+}
